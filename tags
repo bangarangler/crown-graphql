@@ -1,0 +1,65 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+App	src/App.js	/^class App extends React.Component {$/;"	c
+CartActionTypes	src/redux/cart/cart.types.js	/^const CartActionTypes = {$/;"	c
+CartHidden	src/redux/cart/cart.actions.js	/^export const toggleCartHidden = () => ({$/;"	c
+CartHidden	src/redux/cart/cart.selectors.js	/^export const selectCartHidden = createSelector($/;"	c
+CartItems	src/redux/cart/cart.selectors.js	/^export const selectCartItems = createSelector($/;"	c
+CartItemsCount	src/redux/cart/cart.selectors.js	/^export const selectCartItemsCount = createSelector($/;"	c
+CartTotal	src/redux/cart/cart.selectors.js	/^export const selectCartTotal = createSelector($/;"	c
+Collections	src/redux/shop/shop.selectors.js	/^export const selectCollections = createSelector($/;"	c
+CollectionsForPreview	src/redux/shop/shop.selectors.js	/^export const selectCollectionsForPreview = createSelector($/;"	c
+Config	src/redux/root-reducer.js	/^const persistConfig = {$/;"	c
+CurrentUser	src/redux/user/user.selectors.js	/^export const selectCurrentUser = createSelector($/;"	c
+DirectorySections	src/redux/directory/directory.selectors.js	/^export const selectDirectorySections = createSelector($/;"	c
+INITIAL_STATE	src/redux/cart/cart.reducer.js	/^const INITIAL_STATE = {$/;"	c
+INITIAL_STATE	src/redux/directory/directory.reducer.js	/^const INITIAL_STATE = {$/;"	c
+INITIAL_STATE	src/redux/shop/shop.reducer.js	/^const INITIAL_STATE = {$/;"	c
+INITIAL_STATE	src/redux/user/user.reducer.js	/^const INITIAL_STATE = {$/;"	c
+InWithGoogle	src/firebase/firebase.utils.js	/^export const signInWithGoogle = () => auth.signInWithPopup(provider);$/;"	c
+ItemFromCart	src/redux/cart/cart.utils.js	/^export const removeItemFromCart = (cartItems, cartItemToRemove) => {$/;"	c
+ItemToCart	src/redux/cart/cart.utils.js	/^export const addItemToCart = (cartItems, cartItemToAdd) => {$/;"	c
+Items	src/redux/cart/cart.reducer.js	/^        cartItems: addItemToCart(state.cartItems, action.payload)$/;"	c
+Items	src/redux/cart/cart.reducer.js	/^        cartItems: removeItemFromCart(state.cartItems, action.payload)$/;"	c
+Link	src/index.js	/^const httpLink = createHttpLink({$/;"	c
+Localhost	src/serviceWorker.js	/^const isLocalhost = Boolean($/;"	c
+Reducer	src/redux/cart/cart.reducer.js	/^const cartReducer = (state = INITIAL_STATE, action) => {$/;"	c
+Reducer	src/redux/directory/directory.reducer.js	/^const directoryReducer = (state = INITIAL_STATE, action) => {$/;"	c
+Reducer	src/redux/root-reducer.js	/^const rootReducer = combineReducers({$/;"	c
+Reducer	src/redux/shop/shop.reducer.js	/^const shopReducer = (state = INITIAL_STATE, action) => {$/;"	c
+Reducer	src/redux/user/user.reducer.js	/^const userReducer = (state = INITIAL_STATE, action) => {$/;"	c
+SHOP_DATA	src/redux/shop/shop.data.js	/^const SHOP_DATA = {$/;"	c
+StateToProps	src/App.js	/^const mapStateToProps = createStructuredSelector({$/;"	c
+UserActionTypes	src/redux/user/user.types.js	/^export const UserActionTypes = {$/;"	c
+UserActionTypes	src/redux/user/user.types.js	/^export const UserActionTypes = {$/;"	v
+UserProfileDocument	src/firebase/firebase.utils.js	/^export const createUserProfileDocument = async (userAuth, additionalData) => {$/;"	c
+addItem	src/redux/cart/cart.actions.js	/^export const addItem = item => ({$/;"	v
+addItemToCart	src/redux/cart/cart.utils.js	/^export const addItemToCart = (cartItems, cartItemToAdd) => {$/;"	v
+auth	src/firebase/firebase.utils.js	/^export const auth = firebase.auth();$/;"	v
+checkValidServiceWorker	src/serviceWorker.js	/^function checkValidServiceWorker(swUrl, config) {$/;"	f
+clearItemFromCart	src/redux/cart/cart.actions.js	/^export const clearItemFromCart = item => ({$/;"	v
+createUserProfileDocument	src/firebase/firebase.utils.js	/^export const createUserProfileDocument = async (userAuth, additionalData) => {$/;"	v
+firestore	src/firebase/firebase.utils.js	/^export const firestore = firebase.firestore();$/;"	v
+persistor	src/redux/store.js	/^export const persistor = persistStore(store);$/;"	v
+register	src/serviceWorker.js	/^export function register(config) {$/;"	f
+registerValidSW	src/serviceWorker.js	/^function registerValidSW(swUrl, config) {$/;"	f
+removeItem	src/redux/cart/cart.actions.js	/^export const removeItem = item => ({$/;"	v
+removeItemFromCart	src/redux/cart/cart.utils.js	/^export const removeItemFromCart = (cartItems, cartItemToRemove) => {$/;"	v
+selectCartHidden	src/redux/cart/cart.selectors.js	/^export const selectCartHidden = createSelector($/;"	v
+selectCartItems	src/redux/cart/cart.selectors.js	/^export const selectCartItems = createSelector($/;"	v
+selectCartItemsCount	src/redux/cart/cart.selectors.js	/^export const selectCartItemsCount = createSelector($/;"	v
+selectCartTotal	src/redux/cart/cart.selectors.js	/^export const selectCartTotal = createSelector($/;"	v
+selectCollection	src/redux/shop/shop.selectors.js	/^export const selectCollection = collectionUrlParam =>$/;"	v
+selectCollections	src/redux/shop/shop.selectors.js	/^export const selectCollections = createSelector($/;"	v
+selectCollectionsForPreview	src/redux/shop/shop.selectors.js	/^export const selectCollectionsForPreview = createSelector($/;"	v
+selectCurrentUser	src/redux/user/user.selectors.js	/^export const selectCurrentUser = createSelector($/;"	v
+selectDirectorySections	src/redux/directory/directory.selectors.js	/^export const selectDirectorySections = createSelector($/;"	v
+setCurrentUser	src/redux/user/user.actions.js	/^export const setCurrentUser = user => ({$/;"	v
+signInWithGoogle	src/firebase/firebase.utils.js	/^export const signInWithGoogle = () => auth.signInWithPopup(provider);$/;"	v
+store	src/redux/store.js	/^export const store = createStore(rootReducer, applyMiddleware(...middlewares));$/;"	v
+toggleCartHidden	src/redux/cart/cart.actions.js	/^export const toggleCartHidden = () => ({$/;"	v
+unregister	src/serviceWorker.js	/^export function unregister() {$/;"	f
