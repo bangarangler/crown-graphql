@@ -6,6 +6,7 @@
 !_TAG_PROGRAM_VERSION	5.8	//
 App	src/App.js	/^class App extends React.Component {$/;"	c
 CartActionTypes	src/redux/cart/cart.types.js	/^const CartActionTypes = {$/;"	c
+CartHidden	src/graphql/resolvers.js	/^    toggleCartHidden: (_root, _args, { cache }) => {$/;"	c
 CartHidden	src/redux/cart/cart.actions.js	/^export const toggleCartHidden = () => ({$/;"	c
 CartHidden	src/redux/cart/cart.selectors.js	/^export const selectCartHidden = createSelector($/;"	c
 CartItems	src/redux/cart/cart.selectors.js	/^export const selectCartItems = createSelector($/;"	c
@@ -27,6 +28,7 @@ Items	src/redux/cart/cart.reducer.js	/^        cartItems: addItemToCart(state.ca
 Items	src/redux/cart/cart.reducer.js	/^        cartItems: removeItemFromCart(state.cartItems, action.payload)$/;"	c
 Link	src/index.js	/^const httpLink = createHttpLink({$/;"	c
 Localhost	src/serviceWorker.js	/^const isLocalhost = Boolean($/;"	c
+Mutation	src/graphql/resolvers.js	/^  Mutation: {$/;"	c
 Reducer	src/redux/cart/cart.reducer.js	/^const cartReducer = (state = INITIAL_STATE, action) => {$/;"	c
 Reducer	src/redux/directory/directory.reducer.js	/^const directoryReducer = (state = INITIAL_STATE, action) => {$/;"	c
 Reducer	src/redux/root-reducer.js	/^const rootReducer = combineReducers({$/;"	c
@@ -49,6 +51,7 @@ register	src/serviceWorker.js	/^export function register(config) {$/;"	f
 registerValidSW	src/serviceWorker.js	/^function registerValidSW(swUrl, config) {$/;"	f
 removeItem	src/redux/cart/cart.actions.js	/^export const removeItem = item => ({$/;"	v
 removeItemFromCart	src/redux/cart/cart.utils.js	/^export const removeItemFromCart = (cartItems, cartItemToRemove) => {$/;"	v
+resolvers	src/graphql/resolvers.js	/^export const resolvers = {$/;"	v
 selectCartHidden	src/redux/cart/cart.selectors.js	/^export const selectCartHidden = createSelector($/;"	v
 selectCartItems	src/redux/cart/cart.selectors.js	/^export const selectCartItems = createSelector($/;"	v
 selectCartItemsCount	src/redux/cart/cart.selectors.js	/^export const selectCartItemsCount = createSelector($/;"	v
@@ -62,4 +65,5 @@ setCurrentUser	src/redux/user/user.actions.js	/^export const setCurrentUser = us
 signInWithGoogle	src/firebase/firebase.utils.js	/^export const signInWithGoogle = () => auth.signInWithPopup(provider);$/;"	v
 store	src/redux/store.js	/^export const store = createStore(rootReducer, applyMiddleware(...middlewares));$/;"	v
 toggleCartHidden	src/redux/cart/cart.actions.js	/^export const toggleCartHidden = () => ({$/;"	v
+typeDefs	src/graphql/resolvers.js	/^export const typeDefs = gql`$/;"	v
 unregister	src/serviceWorker.js	/^export function unregister() {$/;"	f
