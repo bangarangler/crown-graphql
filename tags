@@ -9,6 +9,7 @@ CartActionTypes	src/redux/cart/cart.types.js	/^const CartActionTypes = {$/;"	c
 CartHidden	src/graphql/resolvers.js	/^    toggleCartHidden: (_root, _args, { cache }) => {$/;"	c
 CartHidden	src/redux/cart/cart.actions.js	/^export const toggleCartHidden = () => ({$/;"	c
 CartHidden	src/redux/cart/cart.selectors.js	/^export const selectCartHidden = createSelector($/;"	c
+CartItems	src/graphql/resolvers.js	/^      const newCartItems = addItemToCart(cartItems, item);$/;"	c
 CartItems	src/redux/cart/cart.selectors.js	/^export const selectCartItems = createSelector($/;"	c
 CartItemsCount	src/redux/cart/cart.selectors.js	/^export const selectCartItemsCount = createSelector($/;"	c
 CartTotal	src/redux/cart/cart.selectors.js	/^export const selectCartTotal = createSelector($/;"	c
@@ -23,6 +24,7 @@ INITIAL_STATE	src/redux/shop/shop.reducer.js	/^const INITIAL_STATE = {$/;"	c
 INITIAL_STATE	src/redux/user/user.reducer.js	/^const INITIAL_STATE = {$/;"	c
 InWithGoogle	src/firebase/firebase.utils.js	/^export const signInWithGoogle = () => auth.signInWithPopup(provider);$/;"	c
 ItemFromCart	src/redux/cart/cart.utils.js	/^export const removeItemFromCart = (cartItems, cartItemToRemove) => {$/;"	c
+ItemToCart	src/graphql/resolvers.js	/^    addItemToCart: (_root, { item }, { cache }) => {$/;"	c
 ItemToCart	src/redux/cart/cart.utils.js	/^export const addItemToCart = (cartItems, cartItemToAdd) => {$/;"	c
 Items	src/redux/cart/cart.reducer.js	/^        cartItems: addItemToCart(state.cartItems, action.payload)$/;"	c
 Items	src/redux/cart/cart.reducer.js	/^        cartItems: removeItemFromCart(state.cartItems, action.payload)$/;"	c
