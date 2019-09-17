@@ -1,7 +1,7 @@
 import React from 'react';
 import {Mutation} from 'react-apollo';
 import {gql} from 'apollo-boost';
-import CollectionItem from './collection-item.component.jsx';
+import {default as CollectionItem } from './collection-item.component.jsx';
 
 const ADD_ITEM_TO_CART = gql`
   mutation AddItemToCart($item: Item!) {

@@ -23,7 +23,9 @@ INITIAL_STATE	src/redux/directory/directory.reducer.js	/^const INITIAL_STATE = {
 INITIAL_STATE	src/redux/shop/shop.reducer.js	/^const INITIAL_STATE = {$/;"	c
 INITIAL_STATE	src/redux/user/user.reducer.js	/^const INITIAL_STATE = {$/;"	c
 InWithGoogle	src/firebase/firebase.utils.js	/^export const signInWithGoogle = () => auth.signInWithPopup(provider);$/;"	c
+ItemFromCart	src/graphql/cart.utils.js	/^export const removeItemFromCart = (cartItems, cartItemToRemove) => {$/;"	c
 ItemFromCart	src/redux/cart/cart.utils.js	/^export const removeItemFromCart = (cartItems, cartItemToRemove) => {$/;"	c
+ItemToCart	src/graphql/cart.utils.js	/^export const addItemToCart = (cartItems, cartItemToAdd) => {$/;"	c
 ItemToCart	src/graphql/resolvers.js	/^    addItemToCart: (_root, { item }, { cache }) => {$/;"	c
 ItemToCart	src/redux/cart/cart.utils.js	/^export const addItemToCart = (cartItems, cartItemToAdd) => {$/;"	c
 Items	src/redux/cart/cart.reducer.js	/^        cartItems: addItemToCart(state.cartItems, action.payload)$/;"	c
@@ -42,16 +44,19 @@ UserActionTypes	src/redux/user/user.types.js	/^export const UserActionTypes = {$
 UserActionTypes	src/redux/user/user.types.js	/^export const UserActionTypes = {$/;"	v
 UserProfileDocument	src/firebase/firebase.utils.js	/^export const createUserProfileDocument = async (userAuth, additionalData) => {$/;"	c
 addItem	src/redux/cart/cart.actions.js	/^export const addItem = item => ({$/;"	v
+addItemToCart	src/graphql/cart.utils.js	/^export const addItemToCart = (cartItems, cartItemToAdd) => {$/;"	v
 addItemToCart	src/redux/cart/cart.utils.js	/^export const addItemToCart = (cartItems, cartItemToAdd) => {$/;"	v
 auth	src/firebase/firebase.utils.js	/^export const auth = firebase.auth();$/;"	v
 checkValidServiceWorker	src/serviceWorker.js	/^function checkValidServiceWorker(swUrl, config) {$/;"	f
 clearItemFromCart	src/redux/cart/cart.actions.js	/^export const clearItemFromCart = item => ({$/;"	v
 createUserProfileDocument	src/firebase/firebase.utils.js	/^export const createUserProfileDocument = async (userAuth, additionalData) => {$/;"	v
 firestore	src/firebase/firebase.utils.js	/^export const firestore = firebase.firestore();$/;"	v
+getCartItemCount	src/graphql/cart.utils.js	/^export const getCartItemCount = cartItems =>$/;"	v
 persistor	src/redux/store.js	/^export const persistor = persistStore(store);$/;"	v
 register	src/serviceWorker.js	/^export function register(config) {$/;"	f
 registerValidSW	src/serviceWorker.js	/^function registerValidSW(swUrl, config) {$/;"	f
 removeItem	src/redux/cart/cart.actions.js	/^export const removeItem = item => ({$/;"	v
+removeItemFromCart	src/graphql/cart.utils.js	/^export const removeItemFromCart = (cartItems, cartItemToRemove) => {$/;"	v
 removeItemFromCart	src/redux/cart/cart.utils.js	/^export const removeItemFromCart = (cartItems, cartItemToRemove) => {$/;"	v
 resolvers	src/graphql/resolvers.js	/^export const resolvers = {$/;"	v
 selectCartHidden	src/redux/cart/cart.selectors.js	/^export const selectCartHidden = createSelector($/;"	v
