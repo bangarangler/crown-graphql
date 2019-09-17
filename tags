@@ -18,6 +18,7 @@ CollectionsForPreview	src/redux/shop/shop.selectors.js	/^export const selectColl
 Config	src/redux/root-reducer.js	/^const persistConfig = {$/;"	c
 CurrentUser	src/redux/user/user.selectors.js	/^export const selectCurrentUser = createSelector($/;"	c
 DirectorySections	src/redux/directory/directory.selectors.js	/^export const selectDirectorySections = createSelector($/;"	c
+INITIAL_DATA	src/graphql/initial-data.js	/^const INITIAL_DATA = {$/;"	c
 INITIAL_STATE	src/redux/cart/cart.reducer.js	/^const INITIAL_STATE = {$/;"	c
 INITIAL_STATE	src/redux/directory/directory.reducer.js	/^const INITIAL_STATE = {$/;"	c
 INITIAL_STATE	src/redux/shop/shop.reducer.js	/^const INITIAL_STATE = {$/;"	c
